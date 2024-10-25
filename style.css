@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(82, 238, 249);
+    padding: 100px;
+    margin: 100px;
+    font: inherit;
+    vertical-align: baseline;
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    font-size: 40px;
+    border: 50px;
+}
+
+#home p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#home img:hover,.centre{
+max-width: 100%;
+height: auto;
+border: 100px;
+border-radius: auto;
+box-shadow: 0 4px 8px(blue);
+transform: scale(1.05);
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#home h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border: 50px;
+}
+#home p{
+font-size: 20px;
+
+}
+
+#aboutus h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospaces;
+    display: block;
+    text-align: center;
+}
+
+#aboutus p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+#aboutus h2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+#aboutus p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+text-align: center;
+}
+
+
+#products {
+    background-color:aquamarine ;
+}
+
+#products h1{
+    color: black;
+    border: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    display: flexbox;
+}
+#products summary{
+    color: rgb(21, 52, 251);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#products ol{
+    display: grid;
+}
+#products h2{
+    color: black;
+}
+
+#contactus h1{
+    font-size: 40px;
+    border: 100px;
+    padding: 100px;
+    text-align: center;
+    display: block;
+}
+
+#contactus p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+@media (max-width: 960px) {
+    /* Your styles here */
+    .image-container {
+        width: 100%; /* Adjust the container to full width */
+    }
+
+    .responsive-image {
+        width: 100%; /* Ensure the image takes up full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Add any other styles you want to change */
+    body {
+        font-size: 14px; /* Example of changing font size */
+    }
+}
+@media (min-width: 960px) {
+    .header {
+        font-size: 24px; /* Larger font size for header */
+    }
+
+    .sidebar {
+        background-color: #f4f4f4; /* Sidebar background color */
+    }
+
+    .content {
+        background-color: #fff; /* Main content background */
+    }
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50; /* Footer background color */
+    color: white;
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
